@@ -1,0 +1,47 @@
+# Greetings
+(hi|hello|hey)==["Hello!", "Hi there!", "Hey!"]
+
+# General inquiries
+how are you==["I'm good, thanks!", "I'm doing well. How about you?"]
+
+# Introduction
+(.*) your name?==["I'm a chatbot.", "You can call me ChatGPT."]
+
+# Feeling good
+(.*) (good|fine|ok|well) (.*)(you|yourself)?==["I'm just a machine, but I'm here to help!", "I'm always ready to assist you."]
+
+# Seeking help
+(.*) (help|support)==["I can help with various tasks. What do you need assistance with?"]
+
+# Farewell
+bye|quit==["Goodbye!", "See you later.", "Farewell!"]
+
+# Dealing with sadness
+sad|depressed==["I'm here to listen. What's bothering you?", "I'm sorry to hear that. How can I help?"]
+
+# Motivation for low grades
+failed|failed midsem|bad grades==["I understand how frustrating that can be. Let's talk about how to improve your grades.", "I'm here to support you. What's going on with your grades?"]
+
+# Thankful
+thanks|thank you==["You're welcome! I'm here to assist you.", "I'm glad I could help. Anything else you'd like to know?"]
+
+# Exit conversation
+exit please==["You can type 'exit' to exit the chat."]
+
+# General sadness
+i am sad today==["I'm here for you. Why are you feeling sad today?", "I'm sorry to hear that. Please share what's bothering you."]
+i am sad==["I'm really sorry to hear that you're feeling sad. It's okay to have bad days. If you'd like to talk or share, I'm here to listen and support you."]
+
+feeling hungry==["I understand those food cravings! What's your favorite snack?", "Feeling hungry? It's a good time for a tasty meal."]
+tell me a joke==["Sure! Why did the scarecrow win an award? Because he was outstanding in his field!", "Here's one: What do you call a bear with no teeth? A gummy bear!"]
+favorite color==["I don't have a favorite color, but I like all the colors. What's your favorite?", "Colors are fascinating! What's your favorite color and why?"]
+movie recommendations==["What genre do you prefer? I can recommend some great movies!", "Sure, I'd be happy to recommend a movie. What type of movie are you in the mood for?"]
+sports talk==["Sports can be so exciting! Which sport do you follow or play?", "Sports are a great way to stay active. What's your favorite sport?"]
+tell me about yourself==["I'm just a chatbot created to assist and chat with you. What would you like to know or discuss?", "I'm here to help and have conversations. What's on your mind today?"]
+favorite book==["I can't read books, but I can recommend some popular ones. What's your favorite book?", "Books are a great source of knowledge and entertainment. What's your all-time favorite book?"]
+music talk==["Music is a universal language. What's your favorite genre or artist?", "Music can be so uplifting. Who's your favorite musician or band?"]
+travel plans==["Traveling is exciting! Where are you planning to go for your next trip?", "Traveling is a great way to explore new places. Any travel plans coming up?"]
+celebrations==["Celebrations are fun! What's the occasion you're celebrating?", "I love a good celebration. Tell me more about the event you're celebrating."]
+
+
+train==['to train what ?']
